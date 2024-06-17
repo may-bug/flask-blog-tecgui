@@ -1,0 +1,43 @@
+.panel {
+  height: 86vh;
+  overflow-y: hidden;
+
+  .content {
+    display: flex;
+    height: 25vh;
+
+    .statistic {
+      flex: 3;
+
+      .top {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .other {
+        width: 100%;
+      }
+    }
+
+    .about {
+      flex: 1;
+    }
+
+    .right {
+      flex: 1;
+      border-left: var(--td-border-level-1-color) 0.1px solid;
+      padding-left: 20px;
+
+      .link {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+}

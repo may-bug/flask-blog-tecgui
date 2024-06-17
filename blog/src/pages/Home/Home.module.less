@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 确保 Home 组件至少占满视口高度 */
+  color: #0052d9;
+
+  .background {
+    width: 100%; /* 使用百分比或固定值来限制宽度 */
+    max-width: 100vw; /* 限制最大宽度为视口宽度 */
+    position: relative;
+    height: 30vh;
+
+    h1 {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      z-index: 1;
+      font-size: 50px;
+      top: 20vh;
+    }
+
+    h2 {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      font-size: 35px;
+      top: 30vh;
+    }
+
+    span {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      top: 50vh;
+    }
+  }
+}

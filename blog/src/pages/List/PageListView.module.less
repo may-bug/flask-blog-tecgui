@@ -1,0 +1,75 @@
+.listView {
+  display: flex;
+  justify-content: center;
+  min-height: 85vh;
+
+  .itemList {
+    .item {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      height: 160px;
+      min-width: 800px;
+      max-width: 800px;
+
+      .left {
+        flex: 1;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          padding: 5px 0;
+          width: 150px;
+          height: 150px;
+        }
+      }
+
+      .right {
+        flex: 3;
+        margin-left: 10px;
+        overflow: hidden;
+
+        h3 {
+          font-size: 20px;
+          line-height: 30px;
+          padding: 5px 0;
+          width: 100%;
+        }
+
+        p {
+          text-indent: 2em;
+          line-height: 20px;
+          font-size: 15px;
+          padding-right: 10px;;
+          width: 100%;
+          word-wrap: break-word;
+          word-break: break-all;
+          overflow-y: hidden;
+          text-overflow: ellipsis;
+          max-height: 80px;
+        }
+
+        .footer {
+          position: absolute;
+          bottom: 10px;
+
+          .insert {
+            text-align: left;
+            padding: 0 10px 0 0;
+          }
+
+          .update {
+            text-align: center;
+          }
+
+          .star {
+            text-align: right;
+            padding: 0 0 0 10px;
+          }
+        }
+
+      }
+    }
+  }
+}

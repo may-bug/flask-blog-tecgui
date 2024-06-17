@@ -1,0 +1,41 @@
+.quill-editor-container {
+    background: var(--td-bg-color-component);
+    height: 50vh; /* 设置固定高度 */
+    overflow-y: auto; /* 垂直滚动 */
+    border: none;
+}
+
+.editor-view {
+    height: 86vh;
+    padding: 20px;
+}
+
+.space-top {
+    margin: 10px 0;
+}
+
+.input {
+    margin-top: 40px;
+}
+
+.upload {
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-top: 40px;
+}
+
+.quill-editor-con {
+    background-color: white; /* 设置容器背景颜色为白色 */
+}
+
+.ql-container {
+    background-color: white; /* 设置编辑区域背景颜色为白色 */
+    min-height: 50vh;
+}
+
+.ql-toolbar {
+    background-color: white; /* 设置工具栏背景颜色为白色 */
+}
+

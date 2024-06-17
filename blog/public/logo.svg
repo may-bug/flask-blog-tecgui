@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024" height="1024px" width="1024px">
+    <title>画板备份</title>
+    <defs>
+        <filter id="filter-1" filterUnits="objectBoundingBox" height="184.5%" width="144.2%" y="-42.3%" x="-22.1%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"></feGaussianBlur>
+        </filter>
+        <linearGradient id="linearGradient-2" y2="60.9304356%" x2="35.8047757%" y1="35.4179919%" x1="72.0884763%">
+            <stop offset="0%" stop-color="#A5BFFF"></stop>
+            <stop offset="100%" stop-color="#B5D7FF"></stop>
+        </linearGradient>
+        <filter id="filter-3" filterUnits="objectBoundingBox" height="101.7%" width="101.1%" y="-0.9%" x="-0.5%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1"></feGaussianBlur>
+        </filter>
+        <linearGradient id="linearGradient-4" y2="94.4110991%" x2="22.6476638%" y1="26.4129969%" x1="70.2248364%">
+            <stop offset="0%" stop-color="#3E83EE"></stop>
+            <stop offset="100%" stop-color="#5986F0"></stop>
+        </linearGradient>
+        <filter id="filter-5" filterUnits="objectBoundingBox" height="100.0%" width="100.0%" y="0.0%" x="0.0%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0"></feGaussianBlur>
+        </filter>
+        <linearGradient id="linearGradient-6" y2="74.1666036%" x2="0%" y1="36.4422634%" x1="80.5337209%">
+            <stop offset="0%" stop-color="#459FFF"></stop>
+            <stop offset="100%" stop-color="#C2DDFF"></stop>
+            <stop offset="100%" stop-color="#7BA5DA"></stop>
+            <stop offset="100%" stop-color="#4B95F2"></stop>
+        </linearGradient>
+    </defs>
+    <g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="画板备份">
+        <polygon points="182.25 656.172271 580.242636 885.96106 861 619.145608 404.831518 531.139956"
+                 filter="url(#filter-1)" opacity="0.31656901" fill="#595656" id="路径-23"></polygon>
+        <g transform="translate(179.000000, 76.000000)" id="编组-57">
+            <g fill-rule="nonzero" transform="translate(0.000000, 288.441196)" id="编组-54">
+                <polygon points="331.253215 534.558804 0 326.203094 0 177.65342 331.253215 385.746718" fill="#B6D5FF"
+                         id="路径"></polygon>
+                <polygon points="331.253215 534.558804 662.50643 326.203094 662.50643 177.65342 331.253215 385.746718"
+                         fill="#95AFE7" id="路径"></polygon>
+                <polygon points="662.50643 177.65342 331.253215 385.746718 1.16415322e-10 177.65342 331.253215 0"
+                         fill="url(#linearGradient-2)" id="路径"></polygon>
+            </g>
+            <polygon points="95.1353329 412.337844 336.121944 571.104865 665 390.120109 380.067666 224.014318"
+                     filter="url(#filter-3)" opacity="0.135370164" fill="#5F6FA5" id="路径-24"></polygon>
+            <g fill-rule="nonzero" id="编组-54备份-3">
+                <polygon points="331.253215 534.558804 0 326.203094 0 177.65342 331.253215 385.746718" fill="#5DA4FF"
+                         id="路径"></polygon>
+                <polygon points="331.253215 534.558804 662.50643 326.203094 662.50643 177.65342 331.253215 385.746718"
+                         filter="url(#filter-5)" fill="url(#linearGradient-4)" id="路径"></polygon>
+                <polygon points="662.50643 177.65342 331.253215 385.746718 1.16415322e-10 177.65342 331.253215 0"
+                         fill="url(#linearGradient-6)" id="路径"></polygon>
+            </g>
+            <path transform="translate(260.530187, 138.533298) rotate(-10.000000) translate(-260.530187, -138.533298)"
+                  fill-rule="nonzero" fill="#1960D1" id="路径-22"
+                  d="M203.71476,180.779451 L204.500614,89.6600493 C272.61285,101.183749 309.253712,107.170321 314.423199,107.619766 L317.195893,107.775548 L317.345615,143.639441 L243.937425,130.688795 L241.279144,187.406546 L203.71476,180.779451 Z"></path>
+            <path transform="translate(387.079840, 205.452502) scale(-1, 1) rotate(-98.000000) translate(-387.079840, -205.452502)"
+                  fill-rule="nonzero" fill="#1960D1" id="路径-22备份"
+                  d="M332.809362,253.25492 L347.009115,152.165338 C404.733763,160.559733 436.180831,164.981653 441.350318,165.431097 L435.178577,209.368393 L379.842875,201.587381 L371.814864,258.739666 L332.809362,253.25492 Z"></path>
+        </g>
+    </g>
+</svg>
